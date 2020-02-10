@@ -1,3 +1,12 @@
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width: 700px) {
+    html, body {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+
+
 .button{
     width: 80px;
     height: 80px;
@@ -17,3 +26,4 @@
     margin-top: -150px;
     margin-left: -150px;
 }
+
