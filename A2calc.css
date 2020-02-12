@@ -1,8 +1,7 @@
-/* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 700px) {
+@media only screen and (min-width: 700px) {
     html, body {
-        width: 100%;
         height: 100%;
+        width: 100%;
     }
 }
 
@@ -23,4 +22,3 @@
     margin-top: -150px;
     margin-left: -150px;
 }
-
