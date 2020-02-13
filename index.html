@@ -10,42 +10,49 @@
         <div class="main">
         <form name="form" id="form">
         
-            <input class="center-block" type="text" name="textview" disabled size="85" height="30" />
+            <input class="center-block" type="text" name="textview" disabled/>
 
         <div class="hold-buttons">
+           
         
             
-                <button class="button" type="button" value="&#9003" onclick="backspace()">&#9003
-                <button class="button" type="button" value="(" onclick="show('(')">(
-                <button class="button" type="button" value=")" onclick="show(')')">)
-                <button class="button" type="button" value="/" onclick="show('/')">/
+                <input type="button" class="button" type="button" value="&#9003" onclick="backspace()">
+                <input type="button" class="button" type="button" value="(" onclick="show('(')">
+                <input type="button" class="button" type="button" value=")" onclick="show(')')">
+                <input type="button" class="button" type="button" value="/" onclick="show('/')">
+
+                <br>
 
             
             
-                <button class="button" type="button" value="7" onclick="show(7)">7
-                <button class="button" type="button" value="8" onclick="show(8)">8
-                <button class="button" type="button" value="9" onclick="show(9)">9
-                <button class="button" type="button" value="*" onclick="show('*')">*
+                <input type="button" class="button" type="button" value="7" onclick="show(7)">
+                <input type="button" class="button" type="button" value="8" onclick="show(8)">
+                <input type="button" class="button" type="button" value="9" onclick="show(9)">
+                <input type="button" class="button" type="button" value="*" onclick="show('*')">
+                <br>
 
             
             
-                <button class="button" type="button" value="4" onclick="show(4)">4
-                <button class="button" type="button" value="5" onclick="show(5)">5
-                <button class="button" type="button" value="6" onclick="show(6)">6
-                <button class="button" type="button" value="-" onclick="show('-')">-
+                <input type="button" class="button" type="button" value="4" onclick="show(4)">
+                <input type="button" class="button" type="button" value="5" onclick="show(5)">
+                <input type="button" class="button" type="button" value="6" onclick="show(6)">
+                <input type="button" class="button" type="button" value="-" onclick="show('-')">
+                <br>
             
 
             
-                <button class="button" type="button" value="1" onclick="show(1)">1
-                <button class="button" type="button" value="2" onclick="show(2)">2
-                <button class="button" type="button" value="3" onclick="show(3)">3
-                <button class="button" type="button" value="+" onclick="show('+')">+
+                <input type="button" class="button" type="button" value="1" onclick="show(1)">
+                <input type="button" class="button" type="button" value="2" onclick="show(2)">
+                <input type="button" class="button" type="button" value="3" onclick="show(3)">
+                <input type="button" class="button" type="button" value="+" onclick="show('+')">
+                <br>
             
 
-                <button class="button" type="reset" value="CE" onclick="show()">CE
-                <button class="button" type="button" value="0" onclick="show(0)">0
-                <td><button class="button" type="button" value="." onclick="show('.')">.
-                <button class="button" type="button" value="=" onclick="textview.value=eval(textview.value)">=
+                <input type="button" class="button" type="reset" value="CE" onclick="show()">
+                <input type="button" class="button" type="button" value="0" onclick="show(0)">
+                <input type="button" class="button" type="button" value="." onclick="show('.')">
+                <input type="button" class="button" type="button" value="=" onclick="textview.value=eval(textview.value)">
+                    
 
         
     </div>
