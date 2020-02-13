@@ -11,36 +11,34 @@
         width: 600px;
     }
 }
-
 html, body{
     padding: 0;
     margin: 0 auto;
-    font-family: 'Roboto Mono', monospace;
-    font-size: xx-large;
 }
 
-.hold-buttons{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
-    height:70%;
+#main{
+    position: relative;
+    align-content: center;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 0px auto;
+    padding: 20px 20px 100px 20px;
 }
 
-.answer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 30%;
+input[type=button] {
+    width: 20%;
+    font-size: 20px;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-.main{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.center-block {
+input[type = text] {
+    position: relative;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
+    width: 100%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+}
