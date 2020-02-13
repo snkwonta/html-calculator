@@ -17,6 +17,7 @@ html, body{
 }
 
 #main{
+    display: flex;
     position: relative;
     align-content: center;
     width: 600px;
